@@ -5,9 +5,12 @@ import discord
 from discord import Webhook
 import aiohttp
 
-openai.api_key = my_secret = os.environ['OPENAI_API_KEY']
+openai.api_key = "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"
+
+
 
 end_program = False
+
 while not end_program:
   get_input = input("Enter a prompt: ")
   if get_input == "exit":
